@@ -6,10 +6,8 @@ import Stars from "./components/Stars";
 function App() {
   return (
     <div className="App">
-      <div className="App">
-        <Navbar />
-        <Stars />
-      </div>
+      <Navbar />
+      <Stars />
       <Section />
     </div>
   );

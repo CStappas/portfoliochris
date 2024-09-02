@@ -1,22 +1,15 @@
-import React from "react";
 import "./section.css";
+import TypewriterEffect from "./type-effet.jsx";
 
 const Section = () => {
-  const aboutMe = `Hey, I'm [Your Name], a computer enthusiast turned software developer. I've been hooked on computers since childhood, and that early fascination sparked my journey into coding.
+  const introtext = "Hi I'm Christos, a front-end developer.";
 
-  **Why Code?**
-  For me, coding is about turning ideas into reality. I thrive on solving problems and enjoy the art of crafting seamless digital experiences.
-  Skills Snapshot
-  Proficient in [Your primary language/framework] and [List of programming languages].
-  Experienced in [Technologies you specialize in].
-  Team player with a knack for elegant solutions.
-  Projects
-  From [Notable project] to [Another significant project], my work reflects my dedication to creating meaningful digital solutions.
-  Beyond the Code
-  When I'm not coding, I'm exploring the latest tech trends and contributing to the developer community. Let's connect and explore the possibilities of code!
-  Cheers,`;
   return (
-    <div className="section">
+    <div>
+      <div id="title">
+      <TypewriterEffect text={introtext} />
+    </div>
+    <div id="about"className="section">
       <div id="content-box">
         <div id="title-box">
           <span id="text">About Me</span>
@@ -71,6 +64,8 @@ const Section = () => {
           <p>Cheers, Christos</p>
         </div>
       </div>
+    </div>
+
     </div>
   );
 };

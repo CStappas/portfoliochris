@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import "./stars.css";
+
 const TypewriterEffect = ({ text }) => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const typingInterval = 80; // Adjust the typing speed (milliseconds)
+    const typingInterval = 80;
 
     if (currentIndex < text.length) {
       const timeoutId = setTimeout(() => {
@@ -16,7 +18,7 @@ const TypewriterEffect = ({ text }) => {
     }
   }, [currentIndex, text]);
 
-  return <div>{displayedText}</div>;
+  return <div className="typeffect">{displayedText}</div>;
 };
 
 export default TypewriterEffect;
