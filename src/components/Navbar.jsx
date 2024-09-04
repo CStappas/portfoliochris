@@ -2,13 +2,18 @@ import React from "react";
 import "./navbar.css";
 
 const Navbar = () => {
+
+  window.onload = function () {
+    window.scrollTo(0, 0);
+};
+
   const scrollToSection = (sectionId) => {
     if (sectionId === "top") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       const section = document.getElementById(sectionId);
       if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
+        section.scrollIntoView({ top: 0, behavior: "smooth" });
       }
     }
   };
@@ -21,8 +26,8 @@ const Navbar = () => {
       <button className="button" onClick={() => scrollToSection("about")}>
         <span id="nav">About</span>
       </button>
-      <button className="button" onClick={() => scrollToSection("work")}>
-        <span id="nav">Work</span>
+      <button className="button" onClick={() => scrollToSection("projects")}>
+        <span id="nav">Projects</span>
       </button>
       <button className="button" onClick={() => scrollToSection("contact")}>
         <span id="nav">Contact</span>

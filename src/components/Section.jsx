@@ -1,10 +1,13 @@
 import "./section.css";
 import TypewriterEffect from "./type-effet.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
 
 const Section = () => {
   const introtext = "Hi I'm Christos, a front-end developer.";
 
   return (
+    <div>
     <div>
       <div id="title">
       <TypewriterEffect text={introtext} />
@@ -65,7 +68,9 @@ const Section = () => {
         </div>
       </div>
     </div>
-
+    <Projects/>
+    </div>
+    <Contact/>
     </div>
   );
 };

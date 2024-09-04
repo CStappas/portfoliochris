@@ -16,15 +16,14 @@
 }
 
 #text {
-  
-  font-size: 2rem; 
-  color: #ffffff; 
+  font-size: 2rem;
+  color: #ffffff;
   font-weight: bold;
 }
 
 #description {
   font-weight: 500;
-  color: #c9c9c9; 
+  color: #c9c9c9;
   line-height: 1.6;
 }
 
@@ -43,7 +42,7 @@
 }
 
 strong {
-  color: #1a73e8; 
+  color: #1a73e8;
   font-weight: bold;
 }
 
