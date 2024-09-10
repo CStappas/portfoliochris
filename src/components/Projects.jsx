@@ -34,7 +34,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Coming Soon
+            Coming Soon 
           </a>
         </div>
       </div>

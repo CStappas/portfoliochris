@@ -1,6 +1,6 @@
 .section {
   text-align: center;
-  height: 100vh;
+  height: 100vh; /* comment */
   align-content: center;
 }
 img{
