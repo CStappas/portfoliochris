@@ -1,0 +1,41 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+}
+.starry-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  z-index: -1;
+}
+  .star {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    opacity: 0;
+    animation: twinkle linear infinite;
+  }
+  @keyframes twinkle {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  }

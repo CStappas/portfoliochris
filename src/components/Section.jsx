@@ -2,6 +2,8 @@ import "./section.css";
 import TypewriterEffect from "./type-effet.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+import StarryBackground from "./StarryBackground.jsx";
+
 
 const Section = () => {
   const introtext = "Hi I'm Christos, a front-end developer.";
@@ -9,7 +11,7 @@ const Section = () => {
   return (
     <div >
       <div>
-        <div id="title">
+        <div id="title" className="title">
           <TypewriterEffect text={introtext} />
         </div>
         <div id="about" className="section">
