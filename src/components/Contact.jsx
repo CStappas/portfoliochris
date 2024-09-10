@@ -111,7 +111,7 @@ const Contact = () => {
           />
         </a>
         <a
-          href="www.linkedin.com/in/christos-stappas-howarth-a30816114"
+          href="https://www.linkedin.com/in/christos-stappas-howarth-a30816114"
           target="_blank"
           rel="noopener noreferrer"
           className="social-button"
