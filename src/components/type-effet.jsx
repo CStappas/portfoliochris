@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./stars.css";
 
 const TypewriterEffect = ({ text }) => {
   const [displayedText, setDisplayedText] = useState("");
