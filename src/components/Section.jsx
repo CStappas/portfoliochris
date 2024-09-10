@@ -2,7 +2,6 @@ import "./section.css";
 import TypewriterEffect from "./type-effet.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
-import StarryBackground from "./StarryBackground.jsx";
 
 
 const Section = () => {

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import Pokedex from "../Pokedex.png"
+import LittleLemon from "../LittleLemon.png"
 
 function Projects() {
   return (
@@ -7,8 +9,7 @@ function Projects() {
       <div class="project-container">
         <div class="project-card">
         <h3>Pokédex</h3>
-          <p>
-          </p>
+        <img src={Pokedex} alt=""/>
           <a href="https://cstappas.github.io/pokedex/" class="project-link" >
             Visit
           </a>
@@ -17,8 +18,7 @@ function Projects() {
         <div class="project-card">
           <h3>Little Lemon Restaurant Capstone</h3>
         
-          <p>
-          </p>
+          <img src={LittleLemon} alt=""/>
           <a href="https://cstappas.github.io/littlelemon/" class="project-link">
           Visit
           </a>
@@ -26,10 +26,8 @@ function Projects() {
 
         <div class="project-card">
           <h3>Project Title</h3>
-          <p>
-          </p>
           <a
-            href="#"
+            href="http://CStappas.github.io/portfoliochris"
             class="project-link"
             target="_blank"
             rel="noopener noreferrer"
