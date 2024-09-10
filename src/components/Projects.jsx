@@ -16,7 +16,7 @@ function Projects() {
 
         <div class="project-card">
           <h3>Little Lemon Restaurant Capstone</h3>
-          
+        
           <p>
           </p>
           <a href="https://bigflopz.github.io/littlelemon/" class="project-link">

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+import Git from "../images/github.png"
+import Linkedin from "../images/linkedin.png"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,52 +51,80 @@ const Contact = () => {
 
   return (
     <div id="contact" className="section">
-    <form onSubmit={handleSubmit}  className="contact-form">
-      <div className="form-group">
-        <label htmlFor="name" className="form-label">
-          Name:
-        </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          className="form-input"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
+      <form onSubmit={handleSubmit} className="contact-form">
+        <div className="form-group">
+          <label htmlFor="name" className="form-label">
+            Name:
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            className="form-input"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email" className="form-label">
+            Email:
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            className="form-input"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message" className="form-label">
+            Message:
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            className="form-textarea"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <button type="submit" className="form-button">
+          Submit
+        </button>
+        <div className="social-buttons">
+        <a
+          href="https://github.com/CStappas"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-button"
+        >
+          <img
+            src={Git}
+            alt="GitHub"
+            className="social-icon"
+            style={{ width: '50px',padding: "10px"}}
+          />
+        </a>
+        <a
+          href="www.linkedin.com/in/christos-stappas-howarth-a30816114"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-button"
+        >
+          <img
+            src={Linkedin}
+            alt="LinkedIn"
+            className="social-icon"
+            style={{ width: '50px',padding: "10px"}}
+          />
+        </a>
       </div>
-      <div className="form-group">
-        <label htmlFor="email" className="form-label">
-          Email:
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          className="form-input"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className="form-group">
-        <label htmlFor="message" className="form-label">
-          Message:
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          className="form-textarea"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <button type="submit" className="form-button">
-        Submit
-      </button>
-    </form>
+      </form>
     </div>
   );
 };
