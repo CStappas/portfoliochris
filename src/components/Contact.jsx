@@ -119,6 +119,7 @@ const Contact = () => {
           <img
             src={Linkedin}
             alt="LinkedIn"
+            className="social-icon"
             style={{ width: '50px',padding: "10px"}}
           />
         </a>
