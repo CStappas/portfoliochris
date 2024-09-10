@@ -6,32 +6,27 @@ function Projects() {
     <div id="projects" className="section">
       <div class="project-container">
         <div class="project-card">
-          <h3>Pokedex</h3>
+        <h3>Pokédex</h3>
           <p>
-            This is a brief description of the first project. It includes key
-            details and a summary of what the project is about.
           </p>
-          <a href="#" class="project-link">
-            Learn More
+          <a href="https://bigflopz.github.io/pokedex/" class="project-link" >
+            Visit
           </a>
         </div>
 
         <div class="project-card">
-          <h3>Project Title 2</h3>
+          <h3>Little Lemon Restaurant Capstone</h3>
+          
           <p>
-            This is a brief description of the second project. It includes key
-            details and a summary of what the project is about.
           </p>
-          <a href="#" class="project-link">
-            Learn More
+          <a href="https://bigflopz.github.io/littlelemon/" class="project-link">
+          Visit
           </a>
         </div>
 
         <div class="project-card">
-          <h3>Project Title 3</h3>
+          <h3>Project Title</h3>
           <p>
-            This is a brief description of the third project. It includes key
-            details and a summary of what the project is about.
           </p>
           <a
             href="#"
@@ -39,7 +34,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn More
+            Coming Soon
           </a>
         </div>
       </div>
