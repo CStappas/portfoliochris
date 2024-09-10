@@ -9,7 +9,7 @@ function Projects() {
         <h3>Pokédex</h3>
           <p>
           </p>
-          <a href="https://bigflopz.github.io/pokedex/" class="project-link" >
+          <a href="https://cstappas.github.io/pokedex/" class="project-link" >
             Visit
           </a>
         </div>
@@ -19,7 +19,7 @@ function Projects() {
         
           <p>
           </p>
-          <a href="https://bigflopz.github.io/littlelemon/" class="project-link">
+          <a href="https://cstappas.github.io/littlelemon/" class="project-link">
           Visit
           </a>
         </div>
